@@ -8,5 +8,5 @@ date >> days/$filename
 
 # run git cmds
 git add . 
-git push
 git commit -m "added $filname to the repo at $(date +%H:%M:%S)"
+git push
