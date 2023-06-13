@@ -4,6 +4,7 @@
 filename=$(date +%Y-%m-%d).txt
 
 #put something into the file
+cd /home/cern/Desktop/githubbahubba/cronjob0
 date >> days/$filename
 
 # run git cmds
