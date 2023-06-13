@@ -1,4 +1,4 @@
-!# /bin/bash
+#! /bin/bash
 
 #lets generate file name
 filename=$(date +%Y-%m-%d).txt
