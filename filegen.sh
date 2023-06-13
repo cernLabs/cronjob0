@@ -2,10 +2,10 @@
 
 #lets generate file name
 filename=$(date +%Y-%m-%d).txt
-touch /days/$filename
+touch days/$filename
 
 #put something into the file
-date >> /days/$filename
+date >> days/$filename
 
 # run git cmds
 git add . 
